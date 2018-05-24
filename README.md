@@ -12,8 +12,8 @@ Web application based on Websockets for GPS data visualization through Google Ma
 
 First of all install replace the following files:
 ```shell
-    $ mv index.html.sample index.html
-    $ mv js/main.js.sample js/main.js
+ $ mv index.html.sample index.html
+ $ mv js/main.js.sample js/main.js
 ```
 
 ## Configuration
@@ -22,14 +22,14 @@ The following tweaks are needed in order to make it work:
 
 1. Include your Google Maps API key inside the "index.html" file:
 ```html
-  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY">
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY">
 </script>
 ```
 
 2. Edit your MQTT Broker URL and Websockets PORT:
 ```javascript
-  var MQTTbroker = '<MQTT_BROKER_HOSTNAME>';
-  var MQTTport = <Websockets PORT>;
+var MQTTbroker = '<MQTT_BROKER_HOSTNAME>';
+var MQTTport = <Websockets PORT>;
 ```
 
 ## Usage
