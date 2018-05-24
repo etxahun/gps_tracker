@@ -155,7 +155,6 @@ function addMarker(lat, lng, info) {
 
 function initMap() {
   var home = {lat: 0, lng: 0};
-  console.log(nextel);
   map = new google.maps.Map(document.getElementById('map'), {
     zoom: 17,
     center: home
