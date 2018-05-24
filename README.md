@@ -22,8 +22,7 @@ The following tweaks are needed in order to make it work:
 
 1. Include your Google Maps API key inside the "index.html" file:
 ```html
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY">
-</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
 ```
 
 2. Edit your MQTT Broker URL and Websockets PORT:
