@@ -144,8 +144,8 @@ var map = null;
 var bounds = new google.maps.LatLngBounds();
 
 function addMarker(lat, lng, info) {
-	// console.log(lat, lng, info);
-	var pt = new google.maps.LatLng(lat, lng);
+  // console.log(lat, lng, info);
+  var pt = new google.maps.LatLng(lat, lng);
   bounds.extend(pt);
 	var marker = new google.maps.Marker({
 		position: pt,
